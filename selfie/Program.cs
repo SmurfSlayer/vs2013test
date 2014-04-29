@@ -11,7 +11,7 @@ namespace selfie
         {
             Console.WriteLine();
             string userName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
-            Console.Write(userName);
+            Console.WriteLine(userName);
             Console.WriteLine("GetEnvironmentVariables: ");
             IDictionary environmentVariables = Environment.GetEnvironmentVariables();
             foreach (DictionaryEntry de in environmentVariables)
