@@ -9,7 +9,7 @@ namespace selfie
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Starting to take a selfie...");
+            Console.WriteLine("Taking a selfie...");
             string userName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
             Console.WriteLine(userName);
             Console.WriteLine("GetEnvironmentVariables: ");
